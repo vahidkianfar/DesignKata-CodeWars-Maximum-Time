@@ -4,7 +4,7 @@ https://www.codewars.com/kata/62a4abf03236976b7acf7781
 
 Problem:
 
-Given an array of digits (could be any size), find the maximum 24-hour time that can be made, each digits can be used exactly once on Hour or on Minute separately.
+Given an array of digits (could be any size), find the maximum 24-hour time "hh:mm" that can be made, each digits can be used exactly once on Hour or on Minute separately.
 
 ### Please see Example 1, Example 2, and Example 3
 
