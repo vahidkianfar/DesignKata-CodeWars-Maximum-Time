@@ -6,7 +6,7 @@ Problem:
 
 Given an array inputArray of at least two digits (it could be more!), find the maximum 24-hour time that can be made, each digits can be used exactly once on Hour or on Minute separately.
 
-## Please see Example 1, Example 2, and Example 3
+### Please see Example 1, Example 2, and Example 3
 
 NOTE: [We don't have "00:00" time]
 
