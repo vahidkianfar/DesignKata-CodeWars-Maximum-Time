@@ -8,9 +8,9 @@ Given an array of digits (could be any size), find the maximum 24-hour time "hh:
 
 ### Please see Example 1, Example 2, and Example 3
 
-NOTE: [We don't have "00:00" time]
+### NOTE: [We don't have "00:00" time]
 
-Return the latest 24-hour time in "HH:MM" format. If no valid time can be made, return "-1".
+### Return the latest 24-hour time in "HH:MM" format. If no valid time can be made, return "-1".
 
 ---------------------------------EXAMPLES------------------------------------------------
 
