@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignKata-CodeWars-Maximum-Time", "DesignKata-CodeWars-Maximum-Time\DesignKata-CodeWars-Maximum-Time.csproj", "{663E3571-D11D-41FC-9ED2-6889A26E10BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxTest", "MaxTest\MaxTest.csproj", "{DB39DD90-4E3C-4331-8804-53E6ED57ACB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{663E3571-D11D-41FC-9ED2-6889A26E10BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663E3571-D11D-41FC-9ED2-6889A26E10BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663E3571-D11D-41FC-9ED2-6889A26E10BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663E3571-D11D-41FC-9ED2-6889A26E10BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB39DD90-4E3C-4331-8804-53E6ED57ACB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB39DD90-4E3C-4331-8804-53E6ED57ACB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB39DD90-4E3C-4331-8804-53E6ED57ACB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB39DD90-4E3C-4331-8804-53E6ED57ACB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
