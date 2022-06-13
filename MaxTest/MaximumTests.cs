@@ -24,7 +24,7 @@ public class Tests
     [Test]
     public void Test3()
     {
-        Assert.That(MaxHourMinute.Max(new[] {0,0,0,0,0}), Is.EqualTo("-1"));
+        Assert.That(MaxHourMinute.Max(new[] {0,0,0,0,0}), Is.EqualTo("00:00"));
     }
     [Test]
     public void Test4()
@@ -83,10 +83,8 @@ public class Tests
         var counter = 0;
         while (counter < 100)
         {
-            var randNum = new Random();
-            var rnd = new Random();
-            var num = rnd.Next(1,15);
-            var randomArray = Enumerable.Repeat(0, num).Select(i => randNum.Next(Min, Max)).ToArray();
+            var rand = new Random();
+            var randomArray = Enumerable.Repeat(0, rand.Next(0,15)).Select(_ => rand.Next(Min, Max)).ToArray();
             var expected = MyMax(randomArray);
             var actual = MaxHourMinute.Max(randomArray);
             Assert.That(actual, Is.EqualTo(expected));
@@ -94,6 +92,7 @@ public class Tests
         }
         static string MyMax(int[] inputArray)
         {
+            if (inputArray.Length>=2 & inputArray.All(v => v == 0)) return "00:00";
             var hour=0;
             var minute=0;
             string temp;
@@ -120,9 +119,5 @@ public class Tests
             }
             return minute==0 ? "-1" : $"{hour:D2}:{minute:D2}";
         }
-            
-        
     }
-    
-    
 }

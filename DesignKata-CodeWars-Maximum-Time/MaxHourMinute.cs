@@ -6,7 +6,7 @@ public class MaxHourMinute
     public static string Max(int[] inputArray)
     {
         //Simple Solution
-        
+        if (inputArray.Length>=2 & inputArray.All(v => v == 0)) return "00:00";
         var hour=0;
         var minute=0;
         string temp;
